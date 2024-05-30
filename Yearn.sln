@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6ACF53D-EBAA-44C7-9A66-F05207A8B5A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{285FC35E-8F87-4061-9DCF-45E9DEBD6464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yearn", "src\Yearn\Yearn.csproj", "{F43D28C0-3F87-4840-8985-BC2D6FEDB5D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F43D28C0-3F87-4840-8985-BC2D6FEDB5D0} = {C6ACF53D-EBAA-44C7-9A66-F05207A8B5A2}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F43D28C0-3F87-4840-8985-BC2D6FEDB5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43D28C0-3F87-4840-8985-BC2D6FEDB5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43D28C0-3F87-4840-8985-BC2D6FEDB5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43D28C0-3F87-4840-8985-BC2D6FEDB5D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
